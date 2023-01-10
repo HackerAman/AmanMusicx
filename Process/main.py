@@ -3,11 +3,11 @@ from RaiChu.config import API_ID, API_HASH, BOT_TOKEN, SESSION_NAME
 from pytgcalls import PyTgCalls, idle
 
 bot = Client(
-    "Aman",
+    "Raichu",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="Aman.Player"),
+    plugins=dict(root="Raichu.Player"),
     )
 
 aman = Client(
